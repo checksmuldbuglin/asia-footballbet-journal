@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>足球竞彩 - 专业分析 & 数据参考 | Asia Football Bet</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f7f3ed;
+            font-family: 'Segoe UI', 'PingFang SC', Roboto, 'Helvetica Neue', sans-serif;
+            color: #2e2b27;
+            line-height: 1.7;
+            padding: 2rem 1.2rem;
+        }
+        .page {
+            max-width: 880px;
+            margin: 0 auto;
+            background: #fdfbf8;
+            border-radius: 28px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+            padding: 2.8rem 2.2rem;
+        }
+        h1 {
+            font-size: 2.2rem;
+            font-weight: 500;
+            letter-spacing: -0.02em;
+            margin-bottom: 0.3rem;
+            color: #1f1c18;
+            border-left: 5px solid #b08a6b;
+            padding-left: 1rem;
+        }
+        .subhead {
+            font-size: 1.05rem;
+            color: #6b5e54;
+            margin: 0.2rem 0 1.8rem 0;
+            padding-left: 1.5rem;
+            border-bottom: 1px solid #e7ddd2;
+            padding-bottom: 0.8rem;
+        }
+        .intro-block {
+            background: #f0ebe4;
+            padding: 1.6rem 1.8rem;
+            border-radius: 18px;
+            margin-bottom: 2rem;
+            font-size: 1rem;
+            box-shadow: inset 0 1px 4px rgba(0,0,0,0.02);
+        }
+        .intro-block p {
+            margin-bottom: 0.6rem;
+        }
+        .intro-block p:last-child {
+            margin-bottom: 0;
+        }
+        .highlight-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.4rem;
+            margin: 2rem 0 1.8rem;
+        }
+        .card {
+            flex: 1 1 200px;
+            background: #ffffff;
+            border-radius: 18px;
+            padding: 1.5rem 1.2rem 1.2rem;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.03);
+            border: 1px solid #e7ddd2;
+        }
+        .card h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #3f352e;
+        }
+        .card p {
+            font-size: 0.92rem;
+            color: #4d423b;
+        }
+        .scenario {
+            background: #f7f2ec;
+            padding: 1.6rem 1.8rem;
+            border-radius: 18px;
+            margin: 1.8rem 0 2rem;
+            border-left: 4px solid #b08a6b;
+        }
+        .scenario h2 {
+            font-size: 1.3rem;
+            font-weight: 500;
+            margin-bottom: 0.6rem;
+            color: #2e2b27;
+        }
+        .scenario ul {
+            padding-left: 1.2rem;
+            margin-top: 0.3rem;
+            color: #3f352e;
+        }
+        .scenario li {
+            margin-bottom: 0.3rem;
+        }
+        .tip-box {
+            background: #e8e0d6;
+            padding: 1.2rem 1.5rem;
+            border-radius: 18px;
+            margin: 1.8rem 0 1.5rem;
+            font-size: 0.95rem;
+            color: #2b2621;
+            border: 1px solid #d6cbbd;
+        }
+        .tip-box strong {
+            color: #5d4a39;
+        }
+        .faq-mini {
+            margin: 2rem 0 1.2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+        .faq-item {
+            background: #f9f5f0;
+            padding: 0.9rem 1.4rem;
+            border-radius: 14px;
+            border: 1px solid #e0d7cc;
+        }
+        .faq-item .q {
+            font-weight: 600;
+            color: #3f352e;
+            margin-bottom: 0.2rem;
+        }
+        .faq-item .a {
+            color: #4f443b;
+            font-size: 0.93rem;
+        }
+        .footer-note {
+            margin-top: 2.4rem;
+            padding-top: 1.2rem;
+            border-top: 1px solid #e7ddd2;
+            font-size: 0.85rem;
+            color: #7a6e63;
+            text-align: center;
+        }
+        .footer-note a {
+            color: #5d4a39;
+            text-decoration: none;
+            font-weight: 500;
+            border-bottom: 1px dotted #b5a494;
+        }
+        .footer-note a:hover {
+            color: #2e2b27;
+            border-bottom: 1px solid #2e2b27;
+        }
+        @media (max-width: 600px) {
+            .page {
+                padding: 1.8rem 1.2rem;
+            }
+            h1 {
+                font-size: 1.8rem;
+                padding-left: 0.8rem;
+            }
+            .subhead {
+                padding-left: 1rem;
+                font-size: 0.95rem;
+            }
+            .card {
+                flex: 1 1 100%;
+            }
+            .intro-block {
+                padding: 1.2rem;
+            }
+            .scenario {
+                padding: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    <h1>亚洲足球竞彩 · 数据参考站</h1>
+    <div class="subhead">面向理性参与者的赛前信息聚合 · 非投注平台</div>
+
+    <div class="intro-block">
+        <p><strong>Asia Football Bet</strong> 是一个专注于足球竞彩赛事信息整合的参考站点。我们不对任何投注行为进行诱导或承诺，仅提供赛前数据、球队动态、历史交锋及赔率变动等可公开获取的参考内容。</p>
+        <p>站内所有内容均围绕<strong>足球竞彩</strong>领域展开，帮助用户更高效地浏览、对比和分析比赛相关资讯。内容来源包括公开体育数据及编辑部人工梳理，力求客观、及时。</p>
+    </div>
+
+    <div class="highlight-grid">
+        <div class="card">
+            <h3>📊 赛事覆盖</h3>
+            <p>包含五大联赛、欧冠、亚冠、日韩联赛及南美主流赛事，每日更新对阵与基本面摘要。</p>
+        </div>
+        <div class="card">
+            <h3>🧩 数据维度</h3>
+            <p>提供近期战绩、主客场表现、伤停信息、历史同赔趋势等模块，辅助使用者自行判断。</p>
+        </div>
+        <div class="card">
+            <h3>⚙️ 界面简洁</h3>
+            <p>无冗余广告干扰，信息层级清晰，便于快速定位关键比赛、查看赔率区间及球队动态。</p>
+        </div>
+    </div>
+
+    <div class="scenario">
+        <h2>适合怎样的使用场景？</h2>
+        <ul>
+            <li>赛前快速浏览当日重点场次及赔率变化区间</li>
+            <li>对比两支球队近三轮攻防数据与交锋记录</li>
+            <li>了解主流机构对某场比赛的初始态度与调整方向</li>
+            <li>作为个人分析体系中的一份信息参考，而非决策依据</li>
+        </ul>
+    </div>
+
+    <div class="tip-box">
+        <strong>⚡ 使用提示：</strong> 本站所有信息均来自公开渠道，不保证绝对完整或实时无误。足球竞彩涉及风险，请根据自身情况理性参与，切勿过度投入。数据仅供参考，不构成任何投注建议。
+    </div>
+
+    <div class="faq-mini">
+        <div class="faq-item">
+            <div class="q">❓ 这个网站提供推荐或预测吗？</div>
+            <div class="a">不提供。我们仅展示基本面与赔率数据，不输出任何预测结论或投注建议。</div>
+        </div>
+        <div class="faq-item">
+            <div class="q">❓ 数据更新频率如何？</div>
+            <div class="a">每日赛前更新，重点赛事在开赛前 6–12 小时完成信息整合，中途如有重要伤停变动会补充。</div>
+        </div>
+        <div class="faq-item">
+            <div class="q">❓ 是否需要注册或付费？</div>
+            <div class="a">完全免费，无需注册。所有内容对访问者开放，无隐藏门槛。</div>
+        </div>
+    </div>
+
+    <div class="footer-note">
+        <p>了解更多关于 <a href="https://asia-footballbet.com">足球竞彩</a> 的数据维度与比赛覆盖范围，可直接浏览站点各栏目。</p>
+        <p style="margin-top:0.3rem;">© Asia Football Bet · 信息聚合参考站 · 理性参与，享受比赛</p>
+    </div>
+</div>
+</body>
+</html>
